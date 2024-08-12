@@ -64,7 +64,6 @@ if st.button("검색"):
             st.write(description_and_tip)
     else:
         st.error("급식 데이터를 가져오는 데 실패했습니다.")
-git add app.py
 git commit -m "Integrate OpenAI API to generate menu descriptions and tips"
 git push origin main
 streamlit==1.26.0
