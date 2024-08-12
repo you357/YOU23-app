@@ -68,3 +68,5 @@ import subprocess
 
 # Git 명령어 실행
 subprocess.run(["git", "commit", "-m", "Integrate OpenAI API to generate menu descriptions and tips"])
+pip install openai
+pip list
