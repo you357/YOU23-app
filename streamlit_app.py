@@ -1,7 +1,6 @@
 import streamlit as st
 
 st.title("🎈 덕인중학교 급식 검색")
-pip install openai
 import os
 import openai
 import streamlit as st
