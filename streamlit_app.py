@@ -67,8 +67,7 @@ if st.button("검색"):
 import subprocess
 
 # Git 명령어 실행
-subprocess.run(["git", "commit", "-m", "Integrate OpenAI API to generate menu descriptions and tips"])
-git push origin main
+subprocess.run(["git", "commit", "-m", "Integrate OpenAI API to generate menu descriptions and tips"]
 streamlit==1.26.0
 pandas==2.1.1
 requests==2.31.0
