@@ -68,3 +68,7 @@ if st.button("검색"):
 git add app.py
 git commit -m "Integrate OpenAI API to generate menu descriptions and tips"
 git push origin main
+streamlit==1.26.0
+pandas==2.1.1
+requests==2.31.0
+openai==0.28.0
