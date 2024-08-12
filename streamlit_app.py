@@ -68,7 +68,3 @@ import subprocess
 
 # Git 명령어 실행
 subprocess.run(["git", "commit", "-m", "Integrate OpenAI API to generate menu descriptions and tips"])
-streamlit==1.26.0
-pandas==2.1.1
-requests==2.31.0
-openai==0.28.0
